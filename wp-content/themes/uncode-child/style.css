@@ -1,0 +1,83 @@
+/*
+Theme Name: Uncode Child
+Description: Child theme for Uncode theme
+Author: Undsgn™
+Author URI: http://www.undsgn.com
+Template: uncode
+Version: 1.0.0
+Text Domain: uncode
+*/
+
+/*****************************************/
+	/* Global style */
+/*****************************************/
+
+h5, .h5 {
+    font-size: 17px;
+    line-height: 1.4;
+    margin: 27px 0 0;
+    color: #333331;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Times New Roman", Georgia, Serif !important;
+}
+
+.navbar-nav .menu-primary-inner .lang-item a {
+    padding: 0px 10px;
+}
+
+/*****************************************/
+	/* Page d'accueil */
+/*****************************************/
+
+
+.col-lg-0 /* logo */ {
+    padding: 16px 36px 16px 36px;
+}
+
+.titre-important h5{
+	border-left: 1px solid #555555;
+	padding: 30px 30px 30px 30px;
+	font-size: 26px;
+	text-align: left;
+    display: block !important;
+	font-family: "Times New Roman", Georgia, Serif !important;
+}
+
+.text-important{
+	border-left: 1px solid #dddddd;
+	padding: 40px 30px 42px 30px;
+	font-size: 20px;
+}
+
+.post-footer {
+    display: none;
+}
+
+p.btn-ref {
+    padding: 0px 10px;
+    margin: 4px 4px 4px 0px;
+    display: inline-block;
+    border-right: 1px solid #ddd;
+}
+
+.tmb .t-entry p.t-entry-meta span {
+    display: block;
+    font-size: 20px !important;
+    font-weight: 400;
+}
+
+
+.style-light .btn-default, .style-dark .style-light.style-override .btn-default, .style-dark .style-light .btn-default {
+    color: #000 !important;
+    background-color: #fff !important;
+    border-color: #fff !important;
+    font-size: 18px;
+    border-radius: 0px;
+}
+
+.row .uncont.col-custom-width {
+    border: 0px;
+}
+
