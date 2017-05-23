@@ -289,6 +289,24 @@
 .tmb-overlay-gradient-bottom .style-color-174309-bg { background-color: transparent !important; background-image: -webkit-linear-gradient(bottom, #333331 0%, transparent 50%) !important; background-image: -moz-linear-gradient(bottom, #333331 0%, transparent 50%) !important; background-image: -o-linear-gradient(bottom, #333331 0%, transparent 50%) !important; background-image: linear-gradient(to top, #333331 0%, transparent 50%) !important;}
 
 /*----------------------------------------------------------
+#color-209615
+----------------------------------------------------------*/
+.style-color-209615-bg { background-color: ; }
+.btn-color-209615 { color: #ffffff !important; background-color:  !important; border-color:  !important; }
+.btn-color-209615:not(.btn-hover-nobg):hover, .btn-color-209615:not(.btn-hover-nobg):focus,btn-color-209615:active { background-color: transparent !important; border-color:  !important;}
+.btn-color-209615:not(.btn-hover-nobg):not(.btn-text-skin):hover, .btn-color-209615:not(.btn-hover-nobg):not(.btn-text-skin):focus,btn-color-209615:active { color:  !important; }
+.btn-color-209615.btn-outline { background-color: transparent !important; border-color:  !important; }
+.btn-color-209615.btn-outline:not(.btn-text-skin) { color:  !important; }
+.btn-color-209615.btn-outline:not(.btn-hover-nobg):hover, .btn-color-209615.btn-outline:not(.btn-hover-nobg):focus, btn-color-209615.btn-outline:active { background-color:  !important; border-color:  !important; }
+.btn-color-209615.btn-outline:not(.btn-hover-nobg):not(.btn-text-skin):hover, .btn-color-209615.btn-outline:not(.btn-hover-nobg):not(.btn-text-skin):focus, btn-color-209615.btn-outline:active { color: #ffffff !important; }
+.style-light .btn-color-209615.btn-text-skin.btn-outline, .style-light .btn-color-209615.btn-text-skin:not(.btn-outline):hover { color: #303133 !important; }
+.style-light .btn-color-209615.btn-text-skin.btn-outline:hover { color: #ffffff !important; }
+.text-color-209615-color { color:  !important; }
+.border-color-209615-color { border-color:  !important; }
+.tmb-overlay-gradient-top .style-color-209615-bg { background-color: transparent !important; background-image: -webkit-linear-gradient(top,  0%, transparent 50%) !important; background-image: -moz-linear-gradient(top,  0%, transparent 50%) !important; background-image: -o-linear-gradient(top,  0%, transparent 50%) !important; background-image: linear-gradient(to bottom,  0%, transparent 50%) !important;}
+.tmb-overlay-gradient-bottom .style-color-209615-bg { background-color: transparent !important; background-image: -webkit-linear-gradient(bottom,  0%, transparent 50%) !important; background-image: -moz-linear-gradient(bottom,  0%, transparent 50%) !important; background-image: -o-linear-gradient(bottom,  0%, transparent 50%) !important; background-image: linear-gradient(to top,  0%, transparent 50%) !important;}
+
+/*----------------------------------------------------------
 #accent
 ----------------------------------------------------------*/
 .style-accent-bg { background-color: #777777; }
@@ -2026,7 +2044,7 @@ textarea,
 }
 .submenu-dark ul.uncode-cart-dropdown a,
 .submenu-dark ul.uncode-cart-dropdown span {
-  color: #ffffff;
+  color: #dddddd;
 }
 /* #Woo Headings */
 .headings-style-woo,
@@ -2295,25 +2313,25 @@ textarea,
 }
 .menu-light .menu-smart a:hover,
 .menu-light .menu-smart a:focus {
-  color: #000000;
+  color: #ffffff;
 }
 .isotope-filters .menu-light .menu-smart a:hover,
 .isotope-filters .menu-light .menu-smart a:focus {
   color: rgba(48,49,51,.5);
 }
 .menu-dark p {
-  color: #ffffff;
+  color: #dddddd;
 }
 .menu-dark .menu-smart a {
-  color: #ffffff;
+  color: #dddddd;
 }
 .menu-dark .menu-smart a:hover,
 .menu-dark .menu-smart a:focus {
-  color: #000000;
+  color: #ffffff;
 }
 .isotope-filters .menu-dark .menu-smart a:hover,
 .isotope-filters .menu-dark .menu-smart a:focus {
-  color: rgba(255,255,255,.5);
+  color: rgba(221,221,221,.5);
 }
 @media (min-width: 960px) {
   .style-light-override:not(.is_stuck).menu-transparent .menu-horizontal-inner > .nav > .menu-smart > li > a {
@@ -2321,21 +2339,21 @@ textarea,
   }
   .style-light-override:not(.is_stuck).menu-transparent .menu-horizontal-inner > .nav > .menu-smart > li > a:hover,
   .style-light-override:not(.is_stuck).menu-transparent .menu-horizontal-inner > .nav > .menu-smart > li > a:focus {
-    color: #000000 !important;
+    color: #ffffff !important;
   }
   .style-dark-override:not(.is_stuck).menu-transparent .menu-horizontal-inner > .nav > .menu-smart > li > a {
-    color: #ffffff !important;
+    color: #dddddd !important;
   }
   .style-dark-override:not(.is_stuck).menu-transparent .menu-horizontal-inner > .nav > .menu-smart > li > a:hover,
   .style-dark-override:not(.is_stuck).menu-transparent .menu-horizontal-inner > .nav > .menu-smart > li > a:focus {
-    color: #000000 !important;
+    color: #ffffff !important;
   }
 }
 /* Menu colors active */
 .menu-light .menu-smart > li.active > a,
 .menu-light .menu-smart > li a.active,
 .menu-light .menu-smart > li.current-menu-ancestor > a {
-  color: #000000;
+  color: #ffffff;
 }
 .isotope-filters .menu-light .menu-smart > li.active > a,
 .isotope-filters .menu-light .menu-smart > li a.active,
@@ -2345,25 +2363,25 @@ textarea,
 .menu-dark .menu-smart > li.active > a,
 .menu-dark .menu-smart > li a.active,
 .menu-dark .menu-smart > li.current-menu-ancestor > a {
-  color: #000000;
+  color: #ffffff;
 }
 .isotope-filters .menu-dark .menu-smart > li.active > a,
 .isotope-filters .menu-dark .menu-smart > li a.active,
 .isotope-filters .menu-dark .menu-smart > li.current-menu-ancestor > a {
-  color: rgba(255,255,255,.5);
+  color: rgba(221,221,221,.5);
 }
 @media (min-width: 960px) {
   .style-light-override:not(.is_stuck).menu-transparent .menu-horizontal-inner > .nav > .menu-smart > li.active > a,
   .style-light-override:not(.is_stuck).menu-transparent .menu-horizontal-inner > .nav > .menu-smart > li a.active,
   .style-light-override:not(.is_stuck).menu-transparent .menu-horizontal-inner > .nav > .menu-smart > li.current-menu-parent > a,
   .style-light-override:not(.is_stuck).menu-transparent .menu-horizontal-inner > .nav > .menu-smart > li.current-menu-ancestor > a {
-    color: #000000 !important;
+    color: #ffffff !important;
   }
   .style-dark-override:not(.is_stuck).menu-transparent .menu-horizontal-inner > .nav > .menu-smart > li.active > a,
   .style-dark-override:not(.is_stuck).menu-transparent .menu-horizontal-inner > .nav > .menu-smart > li a.active,
   .style-dark-override:not(.is_stuck).menu-transparent .menu-horizontal-inner > .nav > .menu-smart > li.current-menu-parent > a,
   .style-dark-override:not(.is_stuck).menu-transparent .menu-horizontal-inner > .nav > .menu-smart > li.current-menu-ancestor > a {
-    color: #000000 !important;
+    color: #ffffff !important;
   }
 }
 /* Menu submenu colors */
@@ -2373,17 +2391,17 @@ textarea,
 @media (min-width: 960px) {
   body[class*=hmenu-] .submenu-light .menu-smart ul a:hover,
   body[class*=hmenu-] .submenu-light .menu-smart ul a:focus {
-    color: #000000;
+    color: #ffffff;
     background-color: rgba(0, 0, 0, 0.03);
   }
 }
 .submenu-dark .menu-smart ul a {
-  color: #ffffff;
+  color: #dddddd;
 }
 @media (min-width: 960px) {
   body[class*=hmenu-] .submenu-dark .menu-smart ul a:hover,
   body[class*=hmenu-] .submenu-dark .menu-smart ul a:focus {
-    color: #000000;
+    color: #ffffff;
     background-color: rgba(255, 255, 255, 0.03);
   }
 }
@@ -2393,33 +2411,33 @@ textarea,
   }
   .submenu-light .menu-smart a:hover,
   .submenu-light .menu-smart a:focus {
-    color: #000000;
+    color: #ffffff;
   }
   .submenu-dark .menu-smart a {
-    color: #ffffff;
+    color: #dddddd;
   }
   .submenu-dark .menu-smart a:hover,
   .submenu-dark .menu-smart a:focus {
-    color: #000000;
+    color: #ffffff;
   }
 }
 /* Menu submenu colors active*/
 .submenu-light .menu-smart ul li.current-menu-parent > a,
 .submenu-light .menu-smart ul li.active > a {
-  color: #000000;
+  color: #ffffff;
 }
 .submenu-dark .menu-smart ul li.current-menu-parent > a,
 .submenu-dark .menu-smart ul li.active > a {
-  color: #000000;
+  color: #ffffff;
 }
 @media (max-width: 959px) {
   .submenu-light .menu-smart li.active > a,
   .submenu-light .menu-smart li.current-menu-ancestor > a {
-    color: #000000;
+    color: #ffffff;
   }
   .submenu-dark .menu-smart li.active > a,
   .submenu-dark .menu-smart li.current-menu-ancestor > a {
-    color: #000000;
+    color: #ffffff;
   }
 }
 /* Menu megamenu title colors */
@@ -2428,7 +2446,7 @@ textarea,
     color: #303133;
   }
   .submenu-dark .menu-horizontal .menu-smart > .mega-menu .mega-menu-inner > li > a {
-    color: #ffffff;
+    color: #dddddd;
   }
 }
 /* Menu colors mobile */
@@ -2437,7 +2455,7 @@ textarea,
     color: #303133;
   }
   .submenu-dark .menu-smart a {
-    color: #ffffff;
+    color: #dddddd;
   }
 }
 /*
@@ -2466,14 +2484,14 @@ textarea,
 .menu-dark .menu-borders,
 .menu-dark.vmenu-borders,
 .menu-dark .main-menu-container {
-  border-color: rgba(48,49,51,1);
+  border-color: rgba(48,49,51,0.12);
 }
 /* Submenu borders colors */
 .submenu-light .menu-smart li ul li {
   border-color: rgba(234,234,234,1);
 }
 .submenu-dark .menu-smart li ul li {
-  border-color: rgba(48,49,51,1);
+  border-color: rgba(48,49,51,0.12);
 }
 @media (max-width: 959px) {
   .menu-light .row-brand,
@@ -2486,11 +2504,11 @@ textarea,
   }
   .menu-dark .row-brand,
   .menu-dark .row-menu .row-menu-inner {
-    border-bottom: 1px solid rgba(48,49,51,1);
+    border-bottom: 1px solid rgba(48,49,51,0.12);
   }
   .submenu-dark .menu-smart,
   .submenu-dark .menu-smart li {
-    border-color: rgba(48,49,51,1);
+    border-color: rgba(48,49,51,0.12);
   }
 }
 /* Menu transparent borders colors */
@@ -2505,7 +2523,7 @@ textarea,
   .menu-transparent.menu-dark .menu-smart,
   .menu-transparent.menu-dark .menu-smart > li,
   .menu-transparent.menu-dark .navbar-nav-last > *:first-child {
-    border-color: rgba(48,49,51,1);
+    border-color: rgba(48,49,51,0.12);
   }
   .style-light-override:not(.is_stuck).menu-transparent .menu-borders,
   .style-light-override:not(.is_stuck).menu-transparent .menu-smart,
@@ -2517,13 +2535,13 @@ textarea,
   .style-dark-override:not(.is_stuck).menu-transparent .menu-smart,
   .style-dark-override:not(.is_stuck).menu-transparent .menu-smart > li,
   .style-dark-override:not(.is_stuck).menu-transparent .navbar-nav-last > *:first-child {
-    border-color: rgba(48,49,51,1) !important;
+    border-color: rgba(48,49,51,0.12) !important;
   }
   .menu-light .navbar-nav-last > *:first-child {
     border-color: rgba(234,234,234,1);
   }
   .menu-dark .navbar-nav-last > *:first-child {
-    border-color: rgba(48,49,51,1);
+    border-color: rgba(48,49,51,0.12);
   }
   /** fix menu overlay **/
   .menu-overlay .menu-transparent:not(.is_stuck).menu-transparent .menu-borders {
@@ -2538,7 +2556,7 @@ textarea,
   }
   .submenu-transparent.submenu-dark .menu-smart ul,
   .submenu-transparent.submenu-dark .menu-smart li ul li {
-    border-color: rgba(48,49,51,1);
+    border-color: rgba(48,49,51,0.12);
   }
 }
 /*
@@ -2555,7 +2573,7 @@ textarea,
 }
 .main-header .style-dark-bg,
 .menu-wrapper .style-dark-bg {
-  background-color: #141618;
+  background-color: #000000;
 }
 /* Menu submenu backgrounds colors */
 .submenu-light .menu-horizontal .menu-smart ul {
@@ -2587,7 +2605,7 @@ textarea,
     opacity: 0;
   }
   .menu-wrapper:not(.no-header) .menu-transparent:not(.is_stuck).menu-transparent.style-dark-original > * {
-    background-color: rgba(20,22,24,1);
+    background-color: rgba(0,0,0,0.28);
   }
 }
 /*
@@ -2605,8 +2623,8 @@ textarea,
 }
 .submenu-dark .menu-smart span.scroll-up,
 .submenu-dark .menu-smart span.scroll-down {
-  border-color: rgba(48,49,51,1);
-  background-color: #141618;
+  border-color: rgba(48,49,51,0.12);
+  background-color: #000000;
 }
 .submenu-light .menu-smart span.scroll-up-arrow,
 .submenu-light .menu-smart span.scroll-down-arrow {
@@ -2614,13 +2632,13 @@ textarea,
 }
 .submenu-dark .menu-smart span.scroll-up-arrow,
 .submenu-dark .menu-smart span.scroll-down-arrow {
-  border-color: transparent transparent rgba(48,49,51,1) transparent !important;
+  border-color: transparent transparent rgba(48,49,51,0.12) transparent !important;
 }
 .submenu-light .menu-smart span.scroll-down-arrow {
   border-color: rgba(234,234,234,1) transparent transparent transparent !important;
 }
 .submenu-dark .menu-smart span.scroll-down-arrow {
-  border-color: rgba(48,49,51,1) transparent transparent transparent !important;
+  border-color: rgba(48,49,51,0.12) transparent transparent transparent !important;
 }
 /*
 ----------------------------------------------------------
@@ -2633,7 +2651,7 @@ textarea,
 .mobile-menu-button-dark .lines,
 .mobile-menu-button-dark .lines:before,
 .mobile-menu-button-dark .lines:after {
-  background: #ffffff;
+  background: #dddddd;
 }
 .mobile-menu-button-light .lines,
 .mobile-menu-button-light .lines:before,
@@ -2649,7 +2667,7 @@ textarea,
   .style-dark-override:not(.is_stuck).menu-transparent .lines,
   .style-dark-override:not(.is_stuck).menu-transparent .lines:before,
   .style-dark-override:not(.is_stuck).menu-transparent .lines:after {
-    background: #ffffff;
+    background: #dddddd;
   }
 }
 /*
@@ -2697,7 +2715,7 @@ textarea,
   background-color: #ffffff;
 }
 .submenu-dark .menu-accordion .menu-smart ul {
-  background-color: #141618;
+  background-color: #000000;
 }
 /* Menu Overlay */
 .menu-overlay .menu-accordion .menu-smart ul {
@@ -2705,11 +2723,11 @@ textarea,
 }
 @media (min-width: 960px) {
   .menu-overlay .menu-dark.submenu-light .menu-smart ul a {
-    color: #ffffff;
+    color: #dddddd;
   }
   .menu-overlay .menu-dark.submenu-light .menu-smart ul a:hover,
   .menu-overlay .menu-dark.submenu-light .menu-smart ul a:focus {
-    color: #000000;
+    color: #ffffff;
   }
 }
 @media (min-width: 960px) {
@@ -2718,7 +2736,7 @@ textarea,
   }
   .menu-overlay .menu-light.submenu-dark .menu-smart ul a:hover,
   .menu-overlay .menu-light.submenu-dark .menu-smart ul a:focus {
-    color: #000000;
+    color: #ffffff;
   }
 }
 /* Logo */
@@ -2732,13 +2750,13 @@ textarea,
   fill: #303133;
 }
 .style-dark .navbar-brand .logo-skinnable {
-  color: #ffffff;
+  color: #1b1d1f;
 }
 .style-dark .navbar-brand .logo-skinnable > * {
-  color: #ffffff;
+  color: #1b1d1f;
 }
 .style-dark .navbar-brand .logo-skinnable svg * {
-  fill: #ffffff;
+  fill: #1b1d1f;
 }
 @media (min-width: 960px) {
   .style-light-override:not(.is_stuck).menu-transparent .navbar-brand .logo-skinnable {
@@ -2751,13 +2769,13 @@ textarea,
     fill: #303133;
   }
   .style-dark-override:not(.is_stuck).menu-transparent .navbar-brand .logo-skinnable {
-    color: #ffffff;
+    color: #1b1d1f;
   }
   .style-dark-override:not(.is_stuck).menu-transparent .navbar-brand .logo-skinnable > * {
-    color: #ffffff;
+    color: #1b1d1f;
   }
   .style-dark-override:not(.is_stuck).menu-transparent .navbar-brand .logo-skinnable svg * {
-    fill: #ffffff;
+    fill: #1b1d1f;
   }
   .style-light-override:not(.is_stuck).menu-transparent .navbar-brand .logo-dark {
     display: none !important;
@@ -2777,7 +2795,7 @@ textarea,
   border-color: rgba(234,234,234,1);
 }
 .submenu-dark .menu-accordion .menu-smart .uncode-cart li {
-  border-color: rgba(48,49,51,1);
+  border-color: rgba(48,49,51,0.12);
 }
 /* #Menu-vertical */
 /*
